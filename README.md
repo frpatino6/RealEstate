@@ -61,23 +61,33 @@ dotnet test
 ```
 
 ## Endpoints
-Algunos de los endpoints disponibles son:
 
-Propiedades
+### Propiedades
 
-POST /api/property - Crear una propiedad.
-GET /api/property/{id} - Obtener una propiedad por ID.
-GET /api/property - Listar propiedades con filtros.
-Propietarios
+- **Crear propiedad**
+  - **POST** `/api/property`
+- **Obtener propiedad por ID**
+  - **GET** `/api/property/{id}`
+- **Listar propiedades con filtros**
+  - **GET** `/api/property`
 
-POST /api/owner - Crear un propietario.
-GET /api/owner/{id} - Obtener un propietario por ID.
-GET /api/owner - Listar propietarios.
-Imágenes de propiedades
+### Propietarios
 
-POST /api/property/{id}/images - Agregar una imagen a una propiedad.
-GET /api/property/{id}/images - Obtener imágenes de una propiedad.
-Estructura del proyecto
+- **Crear propietario**
+  - **POST** `/api/owner`
+- **Obtener propietario por ID**
+  - **GET** `/api/owner/{id}`
+- **Listar propietarios**
+  - **GET** `/api/owner`
+
+### Imágenes
+
+- **Agregar imagen a una propiedad**
+  - **POST** `/api/property/{id}/images`
+- **Obtener imágenes de una propiedad**
+  - **GET** `/api/property/{id}/images`
+
+## Estructura del proyecto
 Este proyecto sigue la Clean Architecture con la siguiente estructura de carpetas:
 
 RealEstate.Domain: Contiene las entidades y las interfaces del dominio.
