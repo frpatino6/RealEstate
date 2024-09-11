@@ -1,0 +1,12 @@
+@RealEstate.API_HostAddress = http://localhost:5155
+
+### Crear una nueva propiedad
+POST {{RealEstate.API_HostAddress}}/api/property
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Mi Propiedad",
+  "price": 150000.00,
+  "location": "Bogotá, Colombia"
+}

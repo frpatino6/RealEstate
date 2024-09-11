@@ -1,0 +1,17 @@
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Application.deps.json
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Application.dll
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Application.pdb
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Domain.dll
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Infrastructure.dll
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Domain.pdb
+D:\My projects\RealEstate.Application\bin\Debug\net8.0\RealEstate.Infrastructure.pdb
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.csproj.AssemblyReference.cache
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.AssemblyInfoInputs.cache
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.AssemblyInfo.cs
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.csproj.CoreCompileInputs.cache
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.csproj.CopyComplete
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.dll
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\refint\RealEstate.Application.dll
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\RealEstate.Application.pdb
+D:\My projects\RealEstate.Application\obj\Debug\net8.0\ref\RealEstate.Application.dll
