@@ -20,6 +20,7 @@ git clone https://github.com/tu-usuario/nombre-repositorio.git
 cd nombre-repositorio
 ```
 ## Configurar el archivo appsettings.json
+Asegúrate de configurar la cadena de conexión en el archivo appsettings.json ubicado en la carpeta RealEstate.API. Un ejemplo de la configuración:
 ```json
 {
   "Logging": {
