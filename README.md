@@ -88,9 +88,11 @@ dotnet test
   - **GET** `/api/property/{id}/images`
 
 ## Estructura del proyecto
-Este proyecto sigue la Clean Architecture con la siguiente estructura de carpetas:
 
-RealEstate.Domain: Contiene las entidades y las interfaces del dominio.
-RealEstate.Application: Contiene la lógica de negocio, comandos y consultas.
-RealEstate.Infrastructure: Implementaciones de repositorios y acceso a datos.
-RealEstate.API: Controladores y configuración de la API.
+Este proyecto sigue la **Clean Architecture** con la implementación del patrón **CQRS** (Command Query Responsibility Segregation) y utiliza **MediatR** como el patrón mediador para manejar los comandos y las consultas. A continuación, se describe la estructura principal del proyecto:
+
+- **RealEstate.Domain**: Contiene las entidades y las interfaces del dominio.
+- **RealEstate.Application**: Contiene la lógica de negocio, comandos (Commands) y consultas (Queries) que siguen el patrón CQRS. Los manejadores de comandos y consultas están implementados utilizando **MediatR**.
+- **RealEstate.Infrastructure**: Implementaciones de repositorios y acceso a datos, donde se conecta la infraestructura con la capa de aplicación.
+- **RealEstate.API**: Controladores y configuración de la API, expone los endpoints REST y se comunica con los manejadores de comandos y consultas a través de **MediatR**.
+
