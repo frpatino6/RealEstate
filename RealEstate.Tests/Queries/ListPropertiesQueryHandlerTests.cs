@@ -25,7 +25,6 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnFilteredProperties()
         {
-            // Arrange
             var properties = new List<Property>
         {
             new Property { IdProperty = Guid.NewGuid(), Name = "Property 1" },
@@ -40,10 +39,8 @@ namespace RealEstate.Tests.Queries
             _propertyFilterMock.Setup(filter => filter.Apply(properties, It.IsAny<ListPropertiesQuery>()))
                 .Returns(filteredProperties);
 
-            // Act
             var result = await _handler.Handle(new ListPropertiesQuery(), CancellationToken.None);
 
-            // Assert
             _propertyRepositoryMock.Verify(repo => repo.GetAllAsync(), Times.Once);
             _propertyFilterMock.Verify(filter => filter.Apply(properties, It.IsAny<ListPropertiesQuery>()), Times.Once);
             Assert.That(result.Count(), Is.EqualTo(1));
@@ -53,7 +50,6 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnAllProperties_WhenNoFilterIsApplied()
         {
-            // Arrange
             var properties = new List<Property>
         {
             new Property { IdProperty = Guid.NewGuid(), Name = "Property 1" },
@@ -66,10 +62,8 @@ namespace RealEstate.Tests.Queries
             _propertyFilterMock.Setup(filter => filter.Apply(properties, It.IsAny<ListPropertiesQuery>()))
                 .Returns(properties);
 
-            // Act
             var result = await _handler.Handle(new ListPropertiesQuery(), CancellationToken.None);
 
-            // Assert
             _propertyRepositoryMock.Verify(repo => repo.GetAllAsync(), Times.Once);
             _propertyFilterMock.Verify(filter => filter.Apply(properties, It.IsAny<ListPropertiesQuery>()), Times.Once);
             Assert.That(result.Count(), Is.EqualTo(2));

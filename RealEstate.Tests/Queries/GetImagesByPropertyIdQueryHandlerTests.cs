@@ -22,7 +22,6 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnImagesForProperty()
         {
-            // Arrange
             var propertyId = Guid.NewGuid();
             var images = new List<PropertyImage>
         {
@@ -30,14 +29,11 @@ namespace RealEstate.Tests.Queries
             new PropertyImage { IdPropertyImage = Guid.NewGuid(), IdProperty = propertyId, File = "image2.jpg", Enabled = true }
         };
 
-            // Simula que el repositorio devuelve una lista de imágenes para una propiedad
             _propertyImageRepositoryMock.Setup(repo => repo.GetByPropertyIdAsync(propertyId))
                 .ReturnsAsync(images);
 
-            // Act
             var result = await _handler.Handle(new GetImagesByPropertyIdQuery { IdProperty = propertyId }, CancellationToken.None);
 
-            // Assert
             _propertyImageRepositoryMock.Verify(repo => repo.GetByPropertyIdAsync(propertyId), Times.Once);
             Assert.That(result.Count(), Is.EqualTo(2));
             Assert.That(result.First().File, Is.EqualTo("image1.jpg"));
@@ -47,18 +43,14 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnEmptyList_WhenNoImagesExistForProperty()
         {
-            // Arrange
             var propertyId = Guid.NewGuid();
-            var images = new List<PropertyImage>();  // Lista vacía de imágenes
+            var images = new List<PropertyImage>();      
 
-            // Simula que el repositorio devuelve una lista vacía
             _propertyImageRepositoryMock.Setup(repo => repo.GetByPropertyIdAsync(propertyId))
                 .ReturnsAsync(images);
 
-            // Act
             var result = await _handler.Handle(new GetImagesByPropertyIdQuery { IdProperty = propertyId }, CancellationToken.None);
 
-            // Assert
             _propertyImageRepositoryMock.Verify(repo => repo.GetByPropertyIdAsync(propertyId), Times.Once);
             Assert.That(result, Is.Empty);
         }

@@ -21,7 +21,9 @@ namespace RealEstate.Application.Queries
         {
             var owner = await _ownerRepository.GetByIdAsync(request.IdOwner);
 
-            return _mapperOwnerService.MapToOwner(owner);
+            return owner is not null
+                 ? _mapperOwnerService.MapToOwner(owner)
+                 : null;
         }
     }
 }

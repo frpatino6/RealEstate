@@ -22,7 +22,9 @@ namespace RealEstate.Tests.Queries
             {
                 IdProperty = Guid.NewGuid(),
                 File = "image.jpg",
-                Enabled = true
+                Enabled = true,
+                Location = "images/property"
+
             };
 
             var result = _validator.Validate(command);
@@ -43,7 +45,7 @@ namespace RealEstate.Tests.Queries
             var result = _validator.Validate(command);
 
             Assert.That(result.IsValid, Is.False);
-            Assert.That(2, Is.EqualTo(result.Errors.Count));
+            Assert.That(3, Is.EqualTo(result.Errors.Count));
         }
     }
 }

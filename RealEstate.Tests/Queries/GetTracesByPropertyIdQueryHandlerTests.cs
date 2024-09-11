@@ -22,7 +22,6 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnTracesForProperty_WhenTracesExist()
         {
-            // Arrange
             var propertyId = Guid.NewGuid();
             var traces = new List<PropertyTrace>
         {
@@ -30,14 +29,11 @@ namespace RealEstate.Tests.Queries
             new PropertyTrace { IdPropertyTrace = Guid.NewGuid(), IdProperty = propertyId, Name = "Trace 2", Value = 200000, Tax = 10000 }
         };
 
-            // Simula que el repositorio devuelve una lista de rastros de propiedad
             _propertyTraceRepositoryMock.Setup(repo => repo.GetByPropertyIdAsync(propertyId))
                 .ReturnsAsync(traces);
 
-            // Act
             var result = await _handler.Handle(new GetTracesByPropertyIdQuery { IdProperty = propertyId }, CancellationToken.None);
 
-            // Assert
             _propertyTraceRepositoryMock.Verify(repo => repo.GetByPropertyIdAsync(propertyId), Times.Once);
             Assert.That(result.Count(), Is.EqualTo(2));
             Assert.That(result.First().Name, Is.EqualTo("Trace 1"));
@@ -47,18 +43,14 @@ namespace RealEstate.Tests.Queries
         [Test]
         public async Task Handle_ShouldReturnEmptyList_WhenNoTracesExistForProperty()
         {
-            // Arrange
             var propertyId = Guid.NewGuid();
-            var traces = new List<PropertyTrace>();  // Lista vacía de rastros de propiedad
+            var traces = new List<PropertyTrace>();        
 
-            // Simula que el repositorio devuelve una lista vacía
             _propertyTraceRepositoryMock.Setup(repo => repo.GetByPropertyIdAsync(propertyId))
                 .ReturnsAsync(traces);
 
-            // Act
             var result = await _handler.Handle(new GetTracesByPropertyIdQuery { IdProperty = propertyId }, CancellationToken.None);
 
-            // Assert
             _propertyTraceRepositoryMock.Verify(repo => repo.GetByPropertyIdAsync(propertyId), Times.Once);
             Assert.That(result, Is.Empty);
         }

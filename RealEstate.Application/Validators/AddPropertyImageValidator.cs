@@ -17,7 +17,7 @@ namespace RealEstate.Application.Validators
                 .NotNull().WithMessage("Image status (enabled or disabled) is required.");
 
             RuleFor(x => x.Location)
-                .NotNull().WithMessage("Image status (enabled or disabled) is required.");
+                .NotNull().WithMessage("Location is required.");
 
 
         }

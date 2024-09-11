@@ -27,11 +27,7 @@ public class ListPropertyWithFiltersQueryHandler : IRequestHandler<ListPropertyW
 
         var filteredProperties = _propertyFilter.Apply(properties, request);
 
-        return filteredProperties.Select(MapToDto);
+        return _mapperPropertyService.MapToDto(filteredProperties);
     }
-
-    private PropertyDto MapToDto(Property property)
-    {
-        return _mapperPropertyService.MapToDto(property);
-    }
+   
 }
