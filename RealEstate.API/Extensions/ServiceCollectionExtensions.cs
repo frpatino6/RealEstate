@@ -20,6 +20,8 @@ namespace RealEstate.API.Extensions
             services.AddMediatR(typeof(UpdateOwnerCommandHandler).Assembly);
             services.AddScoped<IMapperPropertyService, MapperPropertyService>();
             services.AddScoped<IPropertyFilter, PropertyFilter>();
+            services.AddScoped<IMapperOwnerService, MapperOwnerService>();
+
 
             return services;
         }

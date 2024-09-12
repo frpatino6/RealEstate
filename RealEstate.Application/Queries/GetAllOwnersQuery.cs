@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using RealEstate.Domain.Entities;
+using RealEstate.Application.DTOs;
 
 namespace RealEstate.Application.Queries
 {
-    public class GetAllOwnersQuery : IRequest<IEnumerable<Owner>>
+    public class GetAllOwnersQuery : IRequest<IEnumerable<OwnerDto>>
     {
     }
 }

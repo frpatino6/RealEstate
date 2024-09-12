@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\My projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\queries\\getpropertybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\queries\\getpropertybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\queries\\listpropertywithfiltersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\queries\\listpropertywithfiltersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\queries\\listpropertywithfiltersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\queries\\listpropertywithfiltersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\queries\\getpropertybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\queries\\getpropertybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CC37973-C3AE-497F-A43A-C727684AEEF1}|RealEstate.API\\RealEstate.API.csproj|d:\\my projects\\realestate.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CC37973-C3AE-497F-A43A-C727684AEEF1}|RealEstate.API\\RealEstate.API.csproj|solutionrelative:realestate.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\queries\\getallownersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\queries\\getallownersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 28,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListPropertyWithFiltersQueryHandler.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Queries\\ListPropertyWithFiltersQueryHandler.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Queries\\ListPropertyWithFiltersQueryHandler.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Queries\\ListPropertyWithFiltersQueryHandler.cs",
-              "RelativeToolTip": "RealEstate.Application\\Queries\\ListPropertyWithFiltersQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:53:57.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListPropertyWithFiltersQuery.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Queries\\ListPropertyWithFiltersQuery.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Queries\\ListPropertyWithFiltersQuery.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Queries\\ListPropertyWithFiltersQuery.cs",
-              "RelativeToolTip": "RealEstate.Application\\Queries\\ListPropertyWithFiltersQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:53:55.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetPropertyByIdQuery.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Queries\\GetPropertyByIdQuery.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Queries\\GetPropertyByIdQuery.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Queries\\GetPropertyByIdQuery.cs",
-              "RelativeToolTip": "RealEstate.Application\\Queries\\GetPropertyByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:52:58.978Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -186,27 +131,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetPropertyByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Queries\\GetPropertyByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Queries\\GetPropertyByIdQueryHandler.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Queries\\GetPropertyByIdQueryHandler.cs",
-              "RelativeToolTip": "RealEstate.Application\\Queries\\GetPropertyByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Title": "GetAllOwnersQueryHandler.cs",
+              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Queries\\GetAllOwnersQueryHandler.cs",
+              "RelativeDocumentMoniker": "RealEstate.Application\\Queries\\GetAllOwnersQueryHandler.cs",
+              "ToolTip": "D:\\My projects\\RealEstate.Application\\Queries\\GetAllOwnersQueryHandler.cs",
+              "RelativeToolTip": "RealEstate.Application\\Queries\\GetAllOwnersQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:53:03.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.API\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "RealEstate.API\\Controllers\\PropertyController.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.API\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "RealEstate.API\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:52:37.564Z",
+              "WhenOpened": "2024-09-12T01:24:43.789Z",
               "EditorCaption": ""
             }
           ]

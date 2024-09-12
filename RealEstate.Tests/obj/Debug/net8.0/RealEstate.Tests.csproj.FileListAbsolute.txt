@@ -167,3 +167,4 @@ D:\My projects\RealEstate.Tests\obj\Debug\net8.0\refint\RealEstate.Tests.dll
 D:\My projects\RealEstate.Tests\obj\Debug\net8.0\RealEstate.Tests.pdb
 D:\My projects\RealEstate.Tests\obj\Debug\net8.0\RealEstate.Tests.genruntimeconfig.cache
 D:\My projects\RealEstate.Tests\obj\Debug\net8.0\ref\RealEstate.Tests.dll
+D:\My projects\RealEstate.Tests\obj\Debug\net8.0\RealEstate.Tests.sourcelink.json

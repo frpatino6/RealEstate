@@ -1,5 +1,6 @@
 ﻿using Moq;
 using NUnit.Framework;
+using RealEstate.Application.Interfaces;
 using RealEstate.Application.Queries;
 using RealEstate.Domain.Entities;
 using RealEstate.Domain.Interfaces;
@@ -10,13 +11,17 @@ namespace RealEstate.Tests.Queries
     public class ListPropertyWithFiltersQueryHandlerTests
     {
         private Mock<IPropertyRepository> _propertyRepositoryMock;
+        private Mock<IMapperPropertyService> _mapperPropertyService;
+        private Mock<IPropertyFilter> _propertyFilter;
+
+
         private ListPropertyWithFiltersQueryHandler _handler;
 
         [SetUp]
         public void Setup()
         {
             _propertyRepositoryMock = new Mock<IPropertyRepository>();
-            _handler = new ListPropertyWithFiltersQueryHandler(_propertyRepositoryMock.Object);
+            _handler = new ListPropertyWithFiltersQueryHandler(_propertyRepositoryMock.Object, _propertyFilter.Object, _mapperPropertyService.Object);
         }
 
         [Test]

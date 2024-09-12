@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RealEstate.Application.DTOs
+﻿namespace RealEstate.Application.DTOs
 {
-    internal class OwnerDto
-    {
-    }
+    public record OwnerDto(
+        Guid IdOwner,
+        string Name,
+        string Address,
+        string Photo,
+        DateTime Birthday
+    );
+
 }

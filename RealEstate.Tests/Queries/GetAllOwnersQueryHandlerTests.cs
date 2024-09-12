@@ -1,5 +1,6 @@
 ﻿using Moq;
 using NUnit.Framework;
+using RealEstate.Application.Interfaces;
 using RealEstate.Application.Queries;
 using RealEstate.Domain.Entities;
 using RealEstate.Domain.Repositories;
@@ -14,13 +15,14 @@ namespace RealEstate.Tests.Queries
     public class GetAllOwnersQueryHandlerTests
     {
         private Mock<IOwnerRepository> _ownerRepositoryMock;
+        private Mock<IMapperOwnerService> _mapperOwnerServiceMock;
         private GetAllOwnersQueryHandler _handler;
 
         [SetUp]
         public void Setup()
         {
             _ownerRepositoryMock = new Mock<IOwnerRepository>();
-            _handler = new GetAllOwnersQueryHandler(_ownerRepositoryMock.Object);
+            _handler = new GetAllOwnersQueryHandler(_ownerRepositoryMock.Object, _mapperOwnerServiceMock.Object);
         }
 
         [Test]
