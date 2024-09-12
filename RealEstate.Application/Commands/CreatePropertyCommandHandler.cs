@@ -23,7 +23,8 @@ namespace RealEstate.Application.Commands
                 CodeInternal = request.CodeInternal,
                 Year = request.Year,
                 Address = request.Address,
-                IdOwner = request.IdOwner
+                IdOwner = request.IdOwner,
+                Location =request.Location
             };
 
             await _propertyRepository.AddAsync(property);

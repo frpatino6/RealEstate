@@ -1,8 +1,9 @@
 ﻿using MediatR;
+using RealEstate.Application.DTOs;
 
 namespace RealEstate.Application.Queries
 {
-    public class ListPropertyWithFiltersQuery : IRequest<IEnumerable<Domain.Entities.Property>>
+    public class ListPropertyWithFiltersQuery : IRequest<IEnumerable<PropertyDto>>
     {
         public string Location { get; set; }
         public decimal? MinPrice { get; set; }

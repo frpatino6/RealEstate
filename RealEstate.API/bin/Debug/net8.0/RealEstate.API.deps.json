@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.OpenApi": "8.0.7",
           "RealEstate.Application": "1.0.0",
           "RealEstate.Infrastructure": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.7.3"
+          "Swashbuckle.AspNetCore": "6.7.3",
+          "Swashbuckle.AspNetCore.Annotations": "6.7.3"
         },
         "runtime": {
           "RealEstate.API.dll": {}
@@ -461,6 +462,17 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.7.3"
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/6.7.3": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.7.3"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "6.7.3.0",
+            "fileVersion": "6.7.3.685"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/6.7.3": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.14"
@@ -674,12 +686,18 @@
           "RealEstate.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "RealEstate.Application.dll": {}
+          "RealEstate.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "RealEstate.Domain/1.0.0": {
         "runtime": {
-          "RealEstate.Domain.dll": {}
+          "RealEstate.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "RealEstate.Infrastructure/1.0.0": {
@@ -690,7 +708,10 @@
           "RealEstate.Domain": "1.0.0"
         },
         "runtime": {
-          "RealEstate.Infrastructure.dll": {}
+          "RealEstate.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1036,6 +1057,13 @@
       "sha512": "sha512-PYTm/M5YrkEUHmguhj6vF1DshG2deKMMcsnhKet1BkcKzZHNX/VVQady0T/jNpXrtxhLR3vB10hWhONF1Nbglw==",
       "path": "swashbuckle.aspnetcore/6.7.3",
       "hashPath": "swashbuckle.aspnetcore.6.7.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/6.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u/s7QGkpgViqpXwHZ28vsSG+/HDP1i9ALgVhi9Jm7dTlUoIS5edSYE5AQIId3g/fLJi0xbNmaTCdzz+ZNnThYw==",
+      "path": "swashbuckle.aspnetcore.annotations/6.7.3",
+      "hashPath": "swashbuckle.aspnetcore.annotations.6.7.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/6.7.3": {
       "type": "package",

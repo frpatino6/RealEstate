@@ -1,31 +1,37 @@
 ﻿using MediatR;
+using RealEstate.Application.DTOs;
+using RealEstate.Application.Interfaces;
+using RealEstate.Application.Queries;
+using RealEstate.Domain.Entities;
 using RealEstate.Domain.Interfaces;
 
-namespace RealEstate.Application.Queries
+public class ListPropertyWithFiltersQueryHandler : IRequestHandler<ListPropertyWithFiltersQuery, IEnumerable<PropertyDto>>
 {
-    public class ListPropertyWithFiltersQueryHandler : IRequestHandler<ListPropertyWithFiltersQuery, IEnumerable<RealEstate.Domain.Entities.Property>>
+    private readonly IPropertyRepository _propertyRepository;
+    private readonly IPropertyFilter _propertyFilter;
+    private readonly IMapperPropertyService _mapperPropertyService;
+
+    public ListPropertyWithFiltersQueryHandler(
+        IPropertyRepository propertyRepository,
+        IPropertyFilter propertyFilter,
+        IMapperPropertyService mapperPropertyService)
     {
-        private readonly IPropertyRepository _propertyRepository;
+        _propertyRepository = propertyRepository;
+        _propertyFilter = propertyFilter;
+        _mapperPropertyService = mapperPropertyService;
+    }
 
-        public ListPropertyWithFiltersQueryHandler(IPropertyRepository propertyRepository)
-        {
-            _propertyRepository = propertyRepository;
-        }
+    public async Task<IEnumerable<PropertyDto>> Handle(ListPropertyWithFiltersQuery request, CancellationToken cancellationToken)
+    {
+        var properties = await _propertyRepository.GetAllAsync();
 
-        public async Task<IEnumerable<Domain.Entities.Property>> Handle(ListPropertyWithFiltersQuery request, CancellationToken cancellationToken)
-        {
-            IEnumerable<Domain.Entities.Property> properties = await _propertyRepository.GetAllAsync();
+        var filteredProperties = _propertyFilter.Apply(properties, request);
 
-            if (request.MinPrice.HasValue)
-            {
-                properties = properties.Where(p => p.Price >= request.MinPrice.Value);
-            }
-            if (request.MaxPrice.HasValue)
-            {
-                properties = properties.Where(p => p.Price <= request.MaxPrice.Value);
-            }
+        return filteredProperties.Select(MapToDto);
+    }
 
-            return properties;
-        }
+    private PropertyDto MapToDto(Property property)
+    {
+        return _mapperPropertyService.MapToDto(property);
     }
 }

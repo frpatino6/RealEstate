@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\My projects\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\updatepropertyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\updatepropertyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\updateownervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\updateownervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\updateownercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\updateownercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\createpropertyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\createpropertyvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\createpropertytracevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\createpropertytracevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\createownervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\createownervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\changepricevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\changepricevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|d:\\my projects\\realestate.application\\validators\\addpropertyimagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A846A250-1A1A-4842-82A7-57AE2F4094F1}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\validators\\addpropertyimagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CC37973-C3AE-497F-A43A-C727684AEEF1}|RealEstate.API\\RealEstate.API.csproj|d:\\my projects\\realestate.api\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CC37973-C3AE-497F-A43A-C727684AEEF1}|RealEstate.API\\RealEstate.API.csproj|solutionrelative:realestate.api\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -159,123 +122,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdatePropertyValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\UpdatePropertyValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\UpdatePropertyValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\UpdatePropertyValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\UpdatePropertyValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:46:16.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateOwnerValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\UpdateOwnerValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\UpdateOwnerValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\UpdateOwnerValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\UpdateOwnerValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:45:59.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateOwnerCommandValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\UpdateOwnerCommandValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\UpdateOwnerCommandValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\UpdateOwnerCommandValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\UpdateOwnerCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:45:42.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreatePropertyValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\CreatePropertyValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\CreatePropertyValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\CreatePropertyValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\CreatePropertyValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:45:26.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreatePropertyTraceValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\CreatePropertyTraceValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\CreatePropertyTraceValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\CreatePropertyTraceValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\CreatePropertyTraceValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:45:09.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChangePriceValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\ChangePriceValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\ChangePriceValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\ChangePriceValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\ChangePriceValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:44:53.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddPropertyImageValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\AddPropertyImageValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\AddPropertyImageValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\AddPropertyImageValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\AddPropertyImageValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:44:17.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateOwnerValidator.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.Application\\Validators\\CreateOwnerValidator.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Validators\\CreateOwnerValidator.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.Application\\Validators\\CreateOwnerValidator.cs",
-              "RelativeToolTip": "RealEstate.Application\\Validators\\CreateOwnerValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:43:41.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OwnerController.cs",
-              "DocumentMoniker": "D:\\My projects\\RealEstate.API\\Controllers\\OwnerController.cs",
-              "RelativeDocumentMoniker": "RealEstate.API\\Controllers\\OwnerController.cs",
-              "ToolTip": "D:\\My projects\\RealEstate.API\\Controllers\\OwnerController.cs",
-              "RelativeToolTip": "RealEstate.API\\Controllers\\OwnerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:42:19.256Z",
-              "EditorCaption": ""
             }
           ]
         }

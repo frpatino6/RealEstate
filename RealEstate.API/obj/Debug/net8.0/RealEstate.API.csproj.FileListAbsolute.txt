@@ -81,3 +81,5 @@ D:\My projects\RealEstate.API\obj\Debug\net8.0\RealEstate.API.genruntimeconfig.c
 D:\My projects\RealEstate.API\obj\Debug\net8.0\ref\RealEstate.API.dll
 D:\My projects\RealEstate.API\obj\Debug\net8.0\RealEstate.API.MvcApplicationPartsAssemblyInfo.cs
 D:\My projects\RealEstate.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\My projects\RealEstate.API\obj\Debug\net8.0\RealEstate.API.sourcelink.json
+D:\My projects\RealEstate.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll

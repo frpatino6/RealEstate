@@ -18,7 +18,7 @@ namespace RealEstate.API.Extensions
             services.AddScoped<IPropertyImageRepository, PropertyImageRepository>();
 
             services.AddMediatR(typeof(UpdateOwnerCommandHandler).Assembly);
-
+            services.AddScoped<IMapperPropertyService, MapperPropertyService>();
             services.AddScoped<IPropertyFilter, PropertyFilter>();
 
             return services;

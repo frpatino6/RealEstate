@@ -8,7 +8,15 @@ using RealEstate.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Real Estate API",
+        Version = "v1"
+    });
+    c.EnableAnnotations(); // Habilita las anotaciones para que funcione SwaggerOperation
+});
 
 builder.Services.AddDbContext<RealEstateDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

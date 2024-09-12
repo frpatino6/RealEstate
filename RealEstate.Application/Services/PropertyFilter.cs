@@ -1,4 +1,5 @@
-﻿using RealEstate.Application.Interfaces;
+﻿using Azure.Core;
+using RealEstate.Application.Interfaces;
 using RealEstate.Application.Queries;
 using RealEstate.Domain.Entities;
 
@@ -28,6 +29,23 @@ namespace RealEstate.Application.Services
             if (query.YearBuilt.HasValue)
             {
                 filters.Add(p => p.Year == query.YearBuilt.Value);
+            }
+
+            return filters.Aggregate(properties, (current, filter) => current.Where(filter));
+        }
+
+        public IEnumerable<Property> Apply(IEnumerable<Property> properties, ListPropertyWithFiltersQuery query)
+        {
+            var filters = new List<Func<Property, bool>>();
+
+            if (query.MinPrice.HasValue)
+            {
+                filters.Add(p => p.Price >= query.MinPrice.Value);
+            }
+
+            if (query.MaxPrice.HasValue)
+            {
+                filters.Add(p => p.Price <= query.MaxPrice.Value);
             }
 
             return filters.Aggregate(properties, (current, filter) => current.Where(filter));
